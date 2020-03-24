@@ -2,16 +2,24 @@ import React from 'react';
 import './App.css';
 import Home from './containers/Home';
 import Hero from './components/Hero';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import ContactUs from './containers/ContactUs'
+import Post from './containers/Post';
 
 function App() {
 
   return (
+    <Router>
     <div className="App">
 
      <Home/>
      <Hero />
-
+    <Route path="/" exact component={Home} />
+    <Route path="/contact-us" component={ContactUs} />
+     <Route path="/post" component={Post} />
     </div>
+    </Router>
+    
   );
 }
 

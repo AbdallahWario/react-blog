@@ -4,7 +4,7 @@ import './style.css';
 const Header = props => {
     return (
         <div>
-            <header className="header">
+         <header className="header">
 
              <nav className="headerMenu">
                  <a href="#">Home</a>
@@ -21,7 +21,7 @@ const Header = props => {
          
 
              </div>
-             </header>  
+        </header>  
         </div>
     
       

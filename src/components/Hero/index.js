@@ -9,7 +9,7 @@ const Hero = (props) => {
         <div>
            
             <Card>
-            <div style={{padding:'50px 0'}}>
+            <div style={{padding:'20px 0'}}>
               <Logo />
               </div>
 

@@ -9,7 +9,7 @@ const Home = props => {
             
         <Header />
 
-     
+        hello from home
             
         </div>
     )
